@@ -1,1 +1,1 @@
-//= require jquery.tooltipster.min
+//= require jquery.tooltipster.min.js
