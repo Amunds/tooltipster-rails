@@ -1,5 +1,5 @@
 module Tooltipster
   module Rails
-    VERSION = "0.0.1"
+    VERSION = "3.2.4"
   end
 end
