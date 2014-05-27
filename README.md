@@ -33,7 +33,7 @@ In your application.css, include the css file:
 If you want to use one of the included themes, include that in your application.css as well:
 ```
 *= require tooltipster
-*= require themes/tooltipster-light
+*= require tooltipster-themes/tooltipster-light
 ```
 
 Check out the [Tooltipster docs](http://iamceege.github.io/tooltipster/#getting-started) for more extensive usage instructions.
