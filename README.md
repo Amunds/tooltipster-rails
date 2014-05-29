@@ -1,6 +1,6 @@
 # Tooltipster::Rails
 
-TODO: Write a gem description
+tooltipster-rails allows easy use of [Tooltipster](http://iamceege.github.io/tooltipster/) with Rails and the asset pipeline.
 
 ## Installation
 
@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your application.js, include the JavaScript file:
+
+```
+//= require jquery.tooltipster.min.js
+```
+
+In your application.css, include the css file:
+
+```
+*= require tooltipster
+```
+
+If you want to use one of the included themes, include that in your application.css as well:
+```
+*= require tooltipster
+*= require tooltipster-themes/tooltipster-light
+```
+
+Check out the [Tooltipster docs](http://iamceege.github.io/tooltipster/#getting-started) for more extensive usage instructions.
 
 ## Contributing
 
