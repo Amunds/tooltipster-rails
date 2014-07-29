@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Tooltipster::Rails::VERSION
   spec.authors       = ["Amund Sivertsen"]
   spec.email         = ["amunds@gmail.com"]
-  spec.description   = %q{Rails 3.1 Asset Gem for Tooltipster}
+  spec.description   = %q{Rails 3.1+ Asset Gem for Tooltipster}
   spec.summary       = %q{Asset pipeline gem for Tooltipster (https://github.com/iamceege/tooltipster)}
   spec.homepage      = ""
   spec.license       = "GPL-3.0"
