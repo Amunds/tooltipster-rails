@@ -38,6 +38,8 @@ If you want to use one of the included themes, include that in your application.
 
 Check out the [Tooltipster docs](http://iamceege.github.io/tooltipster/#getting-started) for more extensive usage instructions.
 
+**Important:** If you are using [bootstrap](http://getbootstrap.com/) you might have conflicts with the class "tooltip". It can be easily fix commenting out bootstrap/tooltip component.
+
 ## Contributing
 
 1. Fork it
