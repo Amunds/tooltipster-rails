@@ -18,22 +18,28 @@ Or install it yourself as:
 
 ## Usage
 
-In your application.js, include the JavaScript file:
+In your application.js, require one of the following JavaScript files:
 
 ```
-//= require jquery.tooltipster.min.js
+//= require tooltipster.bundle
+//= require tooltipster.bundle.min
+//= require tooltipster.core
+//= require tooltipster.core.min
 ```
 
-In your application.css, include the css file:
+In your application.css, include one of the following CSS files:
 
 ```
-*= require tooltipster
+*= require tooltipster.bundle
+*= require tooltipster.bundle.min
+*= require tooltipster.core
+*= require tooltipster.core.min
 ```
 
-If you want to use one of the included themes, include that in your application.css as well:
+If you want to use one of the included themes, include that in your application.css as well. Here's an example:
 ```
-*= require tooltipster
-*= require tooltipster-themes/tooltipster-light
+*= require tooltipster.bundle.min
+*= require plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min
 ```
 
 Check out the [Tooltipster docs](http://iamceege.github.io/tooltipster/#getting-started) for more extensive usage instructions.

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Rails 3.1+ Asset Gem for Tooltipster}
   spec.summary       = %q{Asset pipeline gem for Tooltipster (https://github.com/iamceege/tooltipster)}
   spec.homepage      = ""
-  spec.license       = "GPL-3.0"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
