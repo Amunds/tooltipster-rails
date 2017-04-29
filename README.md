@@ -23,8 +23,8 @@ In your application.js, require one of the following JavaScript files:
 ```
 //= require tooltipster.bundle
 //= require tooltipster.bundle.min
-//= require tooltipster.core
-//= require tooltipster.core.min
+//= require tooltipster.main
+//= require tooltipster.main.min
 ```
 
 In your application.css, include one of the following CSS files:
@@ -32,8 +32,8 @@ In your application.css, include one of the following CSS files:
 ```
 *= require tooltipster.bundle
 *= require tooltipster.bundle.min
-*= require tooltipster.core
-*= require tooltipster.core.min
+*= require tooltipster.main
+*= require tooltipster.main.min
 ```
 
 If you want to use one of the included themes, include that in your application.css as well. Here's an example:
